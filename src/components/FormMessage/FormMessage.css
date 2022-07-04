@@ -1,0 +1,29 @@
+.MuiOutlinedInput-root {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.MessageInput {
+    width: 100%;
+}
+.formwrap {
+    position: fixed;
+   display: flex;
+    bottom: 0;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+    .formwrapover {
+        height: 56px;
+    }
+
+    body {
+        padding-bottom: 56px;
+    }

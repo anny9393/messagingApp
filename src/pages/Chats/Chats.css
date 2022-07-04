@@ -1,0 +1,7 @@
+.MessagesandFormContainer {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    padding: 20px;
+    background-color: rgba(233, 227, 227, 0.856);
+}

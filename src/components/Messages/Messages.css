@@ -1,0 +1,52 @@
+.messagesAll {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:10px;
+    max-width: 100%;
+    min-height: 50%;
+
+
+;}
+.messagesWrap {
+    flex-grow: 6;
+
+
+}
+
+li {
+    padding: 10px;
+}
+
+.contextInMesssage {
+}
+.contextInMesssageRobot{
+    background-color: lightgrey;
+}
+.messagesItemRobot {
+ align-self: flex-end;
+}
+.TextandUserContainer {
+    background-color:#B2EBF2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+}
+.TextandUserContainerRobot {
+    background-color:  lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.userNameInMessage {
+    font-size: 8px;
+}
+
